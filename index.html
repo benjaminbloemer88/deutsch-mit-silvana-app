@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ro" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Deutsch mit Silvana – învață germană pas cu pas, de la A1 la B2." />
+    <meta name="theme-color" content="#f5f8fd" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Deutsch" />
+    <link rel="icon" type="image/svg+xml" href="/deutsch-mit-silvana-app/favicon.svg" />
+    <link rel="apple-touch-icon" href="/deutsch-mit-silvana-app/apple-touch-icon.png" />
+    <title>Deutsch mit Silvana</title>
+    <script>
+      // Apply the saved theme before first paint to avoid a light/dark flash.
+      try {
+        var t = localStorage.getItem('dms-theme');
+        var dark = t === 'dark' || ((!t || t === 'system') && matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/deutsch-mit-silvana-app/assets/index-DZj0i-KI.js"></script>
+    <link rel="stylesheet" crossorigin href="/deutsch-mit-silvana-app/assets/index-DxOPytkW.css">
+  <link rel="manifest" href="/deutsch-mit-silvana-app/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+    <noscript>Aplicația are nevoie de JavaScript.</noscript>
+  </body>
+</html>

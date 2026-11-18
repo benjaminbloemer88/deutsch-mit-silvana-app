@@ -1,0 +1,3 @@
+var e={$schema:`../schema/unit.schema.json`,id:`a2-u09`,title:{de:`Feste und Familie`,ro:`Sărbători și familie`},icon:`🎄`,goals:{ro:`Crăciunul și Paștele în România și în Germania
+Dativul: Ich schenke dir …
+Urări și felicitări`},lessons:[]};export{e as default};
